@@ -2,8 +2,6 @@
 
 cmake_minimum_required(VERSION 3.16)
 
-
-#set this to true to ship the game!
 #! ! ! ! ! ! !
 #DELETE THE OUT FOLDER AFTER CHANGING THIS BECAUSE VISUAL STUDIO DOESN'T SEEM TO RECOGNIZE THIS CHANGE AND REBUILD!
 option(PRODUCTION_BUILD "Make this a production build" OFF)
