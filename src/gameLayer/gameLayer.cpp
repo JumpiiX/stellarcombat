@@ -17,7 +17,6 @@ gl2d::Renderer2D renderer;
 
 bool initGame()
 {
-	//initializing stuff for the renderer
 	gl2d::init();
 	renderer.create();
 
