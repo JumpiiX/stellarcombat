@@ -32,7 +32,7 @@ add_subdirectory(thirdparty/gl2d)				#2D rendering library
 add_subdirectory(thirdparty/glui)				#ui library, usefull for making game menus
 
 
-# Define MY_SOURCES to be a list of all the source files for my game 
+# MY_SOURCES to be a list of all the source files for my game 
 file(GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 
 
