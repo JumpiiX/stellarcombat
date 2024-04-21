@@ -5,7 +5,6 @@
 #undef min
 
 
-//https://stackoverflow.com/questions/21421074/how-to-create-a-full-screen-window-on-the-current-monitor-with-glfw
 GLFWmonitor* getCurrentMonitor(GLFWwindow* window)
 {
 	int nmonitors, i;
